@@ -1,0 +1,28 @@
+{
+  "name": "pronamic-google-maps",
+  "version": "2.3.3",
+  "description": "This plugin makes it simple to add Google Maps to your WordPress post, pages or other custom post types.",
+  "main": "pronamic-google-maps.php",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pronamic/wp-pronamic-google-maps"
+  },
+  "keywords": [
+    "pronamic",
+    "google",
+    "maps"
+  ],
+  "author": "Pronamic",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pronamic/wp-pronamic-google-maps/issues"
+  },
+  "homepage": "https://github.com/pronamic/wp-pronamic-google-maps",
+  "devDependencies": {
+    "@wordpress/env": "^10.13.0"
+  },
+  "dependencies": {
+    "@googlemaps/markermanager": "^1.0.29",
+    "markerclustererplus": "^2.1.4"
+  }
+}
