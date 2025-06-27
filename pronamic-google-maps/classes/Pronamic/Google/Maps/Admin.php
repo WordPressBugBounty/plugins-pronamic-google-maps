@@ -36,23 +36,6 @@ class Pronamic_Google_Maps_Admin {
 			true
 		);
 
-		// Styles
-		wp_register_style(
-			'pronamic-google-maps-admin',
-			plugins_url( 'css/admin.css', Pronamic_Google_Maps_Maps::$file ),
-			[],
-			'2.3.0'
-		);
-
-		// Add the localization for giving the settings.
-		wp_localize_script(
-			'pronamic-google-maps-admin',
-			'pronamic_google_maps_settings',
-			[
-				'visualRefresh' => get_option( 'pronamic_google_maps_visual_refresh' ),
-			]
-		);
-
 		// Load the Settings Class
 		self::$pronamic_google_maps_settings = new Pronamic_Google_Maps_Settings();
 	}
@@ -110,8 +93,7 @@ class Pronamic_Google_Maps_Admin {
 			'manage_options', // capability
 			'pronamic_google_maps', // menu slug
 			[ __CLASS__, 'page_general' ], // function
-			// http://www.veryicon.com/icons/system/palm/google-maps.html
-			plugins_url( 'images/icon-16x16-v2.png', Pronamic_Google_Maps_Maps::$file ) // icon url
+			'dashicons-location' // icon
 		);
 
 		// @see _add_post_type_submenus()
