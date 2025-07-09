@@ -3,7 +3,7 @@
         'name' => 'pronamic/wp-pronamic-google-maps',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd2ad2208c55afd92a86d7ebc53e5240398888e48',
+        'reference' => 'd8db8118e2792419374e8c8d88e335c797e5de0f',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'pronamic/wp-pronamic-google-maps' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd2ad2208c55afd92a86d7ebc53e5240398888e48',
+            'reference' => 'd8db8118e2792419374e8c8d88e335c797e5de0f',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
